@@ -28,7 +28,7 @@
 		D13497AA189F179100756321 /* CommonLinksPaywallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13497A9189F179100756321 /* CommonLinksPaywallViewController.m */; };
 		D13ED6CB17A303F600350ABB /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13ED6CA17A303F600350ABB /* MultipeerConnectivity.framework */; };
 		D1498C13178A606E0010D4BD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1498C12178A606D0010D4BD /* MediaPlayer.framework */; };
-		D159A68318A0D9B10020AA7A /* Graphics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D159A68218A0D9B10020AA7A /* Graphics.xcassets */; };
+		D159A68718A0DD780020AA7A /* UserInterface.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D159A68618A0DD780020AA7A /* UserInterface.xcassets */; };
 		D171D2B218A0999800C90DD7 /* JTBAnimationScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D171D2AA18A0999800C90DD7 /* JTBAnimationScene.m */; };
 		D171D2B318A0999800C90DD7 /* JTBBallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D171D2AC18A0999800C90DD7 /* JTBBallNode.m */; };
 		D171D2B418A0999800C90DD7 /* JTBConnectionAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D171D2AE18A0999800C90DD7 /* JTBConnectionAnimationView.m */; };
@@ -99,7 +99,7 @@
 		D13497A9189F179100756321 /* CommonLinksPaywallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonLinksPaywallViewController.m; path = PaywallVC/CommonLinksPaywallViewController.m; sourceTree = "<group>"; };
 		D13ED6CA17A303F600350ABB /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		D1498C12178A606D0010D4BD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		D159A68218A0D9B10020AA7A /* Graphics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Graphics.xcassets; path = "common links/Graphics.xcassets"; sourceTree = SOURCE_ROOT; };
+		D159A68618A0DD780020AA7A /* UserInterface.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = UserInterface.xcassets; path = "common links/UserInterface.xcassets"; sourceTree = SOURCE_ROOT; };
 		D171D2A918A0999800C90DD7 /* JTBAnimationScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBAnimationScene.h; sourceTree = "<group>"; };
 		D171D2AA18A0999800C90DD7 /* JTBAnimationScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBAnimationScene.m; sourceTree = "<group>"; };
 		D171D2AB18A0999800C90DD7 /* JTBBallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBBallNode.h; sourceTree = "<group>"; };
@@ -437,7 +437,7 @@
 			isa = PBXGroup;
 			children = (
 				D171D2BD18A0A1ED00C90DD7 /* Animation.xcassets */,
-				D159A68218A0D9B10020AA7A /* Graphics.xcassets */,
+				D159A68618A0DD780020AA7A /* UserInterface.xcassets */,
 				D190CA5D17754B5100B2FDD6 /* Common Links-Prefix.pch */,
 				D190CA5717754B5100B2FDD6 /* Common Links-Info.plist */,
 				D190CA5817754B5100B2FDD6 /* InfoPlist.strings */,
@@ -511,7 +511,7 @@
 			files = (
 				D190CA5A17754B5100B2FDD6 /* InfoPlist.strings in Resources */,
 				D171D2BE18A0A1ED00C90DD7 /* Animation.xcassets in Resources */,
-				D159A68318A0D9B10020AA7A /* Graphics.xcassets in Resources */,
+				D159A68718A0DD780020AA7A /* UserInterface.xcassets in Resources */,
 				D1DB3EBF17C1531700942B6F /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
