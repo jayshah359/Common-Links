@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'Common Links' target in the 'Common Links' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifndef _DebugLog_
+#define _DebugLog_
+    #ifdef DEBUGLOG
+        #define DebugLog(fmt, ...) NSLog((@"%s " fmt), __PRETTY_FUNCTION__, ##__VA_ARGS__)
+    #else
+        #define DebugLog(...)
+    #endif
+#endif
