@@ -25,7 +25,6 @@
 		D1319DE5188E2B6000462422 /* CommonLinksSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1319DD4188E2B6000462422 /* CommonLinksSummaryViewController.m */; };
 		D1319DE6188E2B6000462422 /* CommonLinksSummaryViewFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1319DD6188E2B6000462422 /* CommonLinksSummaryViewFriendsCell.m */; };
 		D1319DE7188E2B6000462422 /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1319DD9188E2B6000462422 /* NSMutableArray+Shuffling.m */; };
-		D1319DE9188E2C4400462422 /* Graphics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1319DE8188E2C4400462422 /* Graphics.xcassets */; };
 		D13497AA189F179100756321 /* CommonLinksPaywallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13497A9189F179100756321 /* CommonLinksPaywallViewController.m */; };
 		D13ED6CB17A303F600350ABB /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13ED6CA17A303F600350ABB /* MultipeerConnectivity.framework */; };
 		D1498C13178A606E0010D4BD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1498C12178A606D0010D4BD /* MediaPlayer.framework */; };
@@ -46,6 +45,7 @@
 		D17796471895C780007ED55F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17796451895C780007ED55F /* Security.framework */; };
 		D17796481895C780007ED55F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17796461895C780007ED55F /* SystemConfiguration.framework */; };
 		D17796501895CD64007ED55F /* libFlurry_4.3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D177964F1895CD64007ED55F /* libFlurry_4.3.1.a */; };
+		D1781BB918A0D8E700831225 /* graphics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1781BB818A0D8E700831225 /* graphics.xcassets */; };
 		D180616118136F7C004D2D90 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D180616018136F7B004D2D90 /* StoreKit.framework */; };
 		D190CA5017754B5100B2FDD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D190CA4F17754B5100B2FDD6 /* UIKit.framework */; };
 		D190CA5217754B5100B2FDD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D190CA5117754B5100B2FDD6 /* Foundation.framework */; };
@@ -95,7 +95,6 @@
 		D1319DD6188E2B6000462422 /* CommonLinksSummaryViewFriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLinksSummaryViewFriendsCell.m; sourceTree = "<group>"; };
 		D1319DD8188E2B6000462422 /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
 		D1319DD9188E2B6000462422 /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
-		D1319DE8188E2C4400462422 /* Graphics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Graphics.xcassets; sourceTree = "<group>"; };
 		D13497A8189F179100756321 /* CommonLinksPaywallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonLinksPaywallViewController.h; path = PaywallVC/CommonLinksPaywallViewController.h; sourceTree = "<group>"; };
 		D13497A9189F179100756321 /* CommonLinksPaywallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonLinksPaywallViewController.m; path = PaywallVC/CommonLinksPaywallViewController.m; sourceTree = "<group>"; };
 		D13ED6CA17A303F600350ABB /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
@@ -129,6 +128,7 @@
 		D17796461895C780007ED55F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D177964E1895CD64007ED55F /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		D177964F1895CD64007ED55F /* libFlurry_4.3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.1.a; sourceTree = "<group>"; };
+		D1781BB818A0D8E700831225 /* graphics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = graphics.xcassets; path = "common links/graphics.xcassets"; sourceTree = SOURCE_ROOT; };
 		D180616018136F7B004D2D90 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D190CA4C17754B5100B2FDD6 /* C-Links.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C-Links.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D190CA4F17754B5100B2FDD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -436,8 +436,8 @@
 		D190CA5617754B5100B2FDD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D1781BB818A0D8E700831225 /* graphics.xcassets */,
 				D171D2BD18A0A1ED00C90DD7 /* Animation.xcassets */,
-				D1319DE8188E2C4400462422 /* Graphics.xcassets */,
 				D190CA5D17754B5100B2FDD6 /* Common Links-Prefix.pch */,
 				D190CA5717754B5100B2FDD6 /* Common Links-Info.plist */,
 				D190CA5817754B5100B2FDD6 /* InfoPlist.strings */,
@@ -509,9 +509,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1319DE9188E2C4400462422 /* Graphics.xcassets in Resources */,
 				D190CA5A17754B5100B2FDD6 /* InfoPlist.strings in Resources */,
 				D171D2BE18A0A1ED00C90DD7 /* Animation.xcassets in Resources */,
+				D1781BB918A0D8E700831225 /* graphics.xcassets in Resources */,
 				D1DB3EBF17C1531700942B6F /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
